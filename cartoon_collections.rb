@@ -7,10 +7,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
- new_array = planeteer_calls.map do |element|
-   "#{element.capatalize}!"
+planeteer_calls.map do |element|
+   "#{element.capitalize}!"
  end
-p new_array
 end
 
 def long_planeteer_calls(planeteer_calls)
